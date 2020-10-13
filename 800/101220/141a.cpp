@@ -55,6 +55,7 @@ int main() {
             break;
         }
     }
+    totally &= !check.size();
 
     cout << (totally ? "YES" : "NO") << '\n';
 
